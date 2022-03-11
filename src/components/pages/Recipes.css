@@ -1,0 +1,108 @@
+video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    
+    z-index: -1;
+}
+
+.recipe-container {
+    background: url('../../../src/background-images/kitchen.jpeg') center center/cover no-repeat;
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+    object-fit: contain;
+}
+
+.recipe-container > h1 {
+    font-family: 'Amatic SC', cursive;
+    color: rgb(3, 196, 161);
+    font-size: 115px;
+    margin-top: 20px;
+    text-shadow:
+    -1px -1px 0 rgba(255, 255, 255, 0.1),
+    1px 1px 0 rgba(255, 255, 255, 0.1),
+    -1px -1px 0 rgba(255, 255, 255, 0.1),
+    1px 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+/* .recipe-container > p {
+
+    color: rgb(85, 179, 177);
+
+    font-family: 'Amatic SC', cursive;
+} */
+
+.recipe-text {
+    overflow: auto;
+    margin: 20px 150px;
+    color: rgb(22, 33, 62);
+}
+
+.recipe-text > .name {
+    font-family: 'Homemade Apple', cursive;
+}
+
+.recipe-text > p {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 30px;
+    align-items: center;
+    
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    .recipe-text {
+        -webkit-backdrop-filter: none;
+        backdrop-filter: none;
+        background-color: rgba(255, 255, 255, 0.4);
+        -webkit-backdrop-filter: blur(4px);
+        backdrop-filter: blur(4px);
+        border-radius: 5px;
+        padding: 20px 30px;
+    }
+}
+
+.recipe-btns {
+    margin-top: 2px;
+}
+
+.recipe-btns .btn {
+    margin: 10px;
+}
+
+@media screen and (max-width: 960px) {
+    .recipe-container > h1 {
+        font-size: 115px;
+        /* margin-top: -400px; */
+    }
+    
+    .recipe-text {
+        margin: 15px 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .recipe-container > h1 {
+        font-size: 115px;
+        /* margin-top: -400px; */
+    }
+
+    .recipe-container > p {
+        font-size: 60px;
+    }
+
+    .btn-mobile {
+        display: block;
+        text-decoration: none;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}

@@ -1,0 +1,62 @@
+.contacts {
+    background-image: var(--background-image);
+    height: 100vh;
+}
+
+.contacts h1 {
+    /* padding: 50px 80px; */
+    /* margin-top: 5px; */
+    color: rgb(3, 196, 161);
+    text-shadow:
+    -2px -2px 0 rgb(26, 26, 46),
+    2px 2px 0 rgb(26, 26, 46),
+    -2px -2px 0 rgb(26, 26, 46),
+    2px 2px 0 rgb(26, 26, 46);
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.art-image {
+    margin-top: 20px;
+    /* max-width: 100%; */
+    border-radius: 10px;
+    height: 60vh;
+}
+
+.right-arrow {
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    font-size: 3rem;
+    color: rgb(9, 1, 95);
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.left-arrow {
+    position: absolute;
+    top: 50%;
+    left: 32px;
+    font-size: 3rem;
+    color: rgb(9, 1, 95);
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.slide {
+    opacity: 0;
+    transition-duration:  1s ease;
+}
+
+.slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+}
