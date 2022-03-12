@@ -5,9 +5,11 @@ import './Cards.css'
 function Cards() {
     return (
         <div className="cards">
-            <h1>Wild Flower Writings</h1>
-            <h2>Roaring Grace is a place to find some peace, beauty and inspiration in our daily lives.</h2>
-            <h3>I hope these writings aid you in this pursuit.</h3>
+            <h1>"Moonwalker Cafe is the scratch kitchen every neighborhood deserves"</h1>
+            {/* <div>Moonwalker</div> 
+            <div> 
+                <span>Cafe is the scratch kitchen every neighborhood deserves</span>
+            </div> */}
             <div className="cards__container">
                 <div className="cards__wrapper">
                     <ul className="cards__items">

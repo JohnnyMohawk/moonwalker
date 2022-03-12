@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import Lottie from 'react-lottie-player'
 import { Button } from './Button'
+import moongirl from '../../src/animations/moongirl.json'
 import './Navbar.css'
 
 
@@ -30,7 +32,14 @@ function Navbar() {
             <nav className="navbar">
                 <div className="navbar-container">
                     <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                        Roaring Grace
+                    <Lottie
+                    className='moonimation'
+                    loop
+                    animationData={moongirl}
+                    play
+                    style={{ width: 90, height: 90 }}
+                    />
+                        Moonwalker Cafe
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -38,41 +47,30 @@ function Navbar() {
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className="nav-item">
                             <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
-                                I am
+                                Sips
                             </Link>
                         </li>
                         <li className="nav-item">
                             <Link to="/services" className="nav-links" onClick={closeMobileMenu}>
-                                I do
+                                Eats
                             </Link>
                         </li>
                         <li className="nav-item">
                             <Link to="/spiritual" className="nav-links" onClick={closeMobileMenu}>
-                                Spirit
+                                Press
                             </Link>
                         </li>
                         <li className="nav-item">
                             <Link to="/recipes" className="nav-links" onClick={closeMobileMenu}>
-                                Nourish
+                                About
                             </Link>
                         </li>
                         <li className="nav-item">
                             <Link to="/beauty" className="nav-links" onClick={closeMobileMenu}>
-                                Beauty
+                                Positions
                             </Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link to="/contact" className="nav-links" onClick={closeMobileMenu}>
-                                Let's talk
-                            </Link>
-                            <li className="nav-item">
-                                <Link to="/sign-up" className="nav-links-mobile" onClick={closeMobileMenu}>
-                                    Sign Up
-                                </Link>
-                            </li>
                         </li>
                     </ul>
-                    {button && <Button className="sign-up-button" buttonStyle="btn--outline">SIGN UP</Button>}
                 </div>
             </nav>
         </>

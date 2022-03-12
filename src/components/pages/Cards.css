@@ -1,19 +1,23 @@
 .cards {
+    /* border-top: solid pink 8px; */
     padding: 4rem;
-    background: linear-gradient(90deg, rgb(246, 192, 101) 0%, rgb(85, 179, 177) 100%);
+    background: white;
+    /* background: linear-gradient(90deg, rgb(246, 192, 101) 0%, rgb(85, 179, 177) 100%); */
     /* background: url('../../back-images/flower-print.png') center center/cover no-repeat; */
 }
 
 h1 {
     text-align: center;
-    font-family: 'Amatic SC', cursive;
-    font-size: 54px;
-    color: #F21170;
-    text-shadow:
+    font-family: 'Oswald', sans-serif;
+    font-size: 7vmin;
+    line-height: 7vmin;
+    margin-top: -50px;
+    color: #32517b;
+    /* text-shadow:
     -1px -1px 0 rgba(255, 255, 255, 0.2),
     1px 1px 0 rgba(255, 255, 255, 0.2),
     -1px -1px 0 rgba(255, 255, 255, 0.2),
-    1px 1px 0 rgba(255, 255, 255, 0.2);
+    1px 1px 0 rgba(255, 255, 255, 0.2); */
 }
 
 h2, h3 {
@@ -135,9 +139,9 @@ h3 {
     .cards__items {
         display: flex;
     }
-    h1 {
+    /* h1 {
         font-size: 100px;
-    }
+    } */
 }
 
 @media only screen and (max-width: 1024px) {
