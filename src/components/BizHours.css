@@ -1,5 +1,24 @@
+@keyframes transitionIn {
+    0% {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+  
+    50% {
+      opacity: 0;
+      transform: rotateX(-10deg);
+    }
+  
+    100% {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+
+}
+
 .hoursTable {
-    margin-top: 230px;
+    animation: transitionIn 4s;
+    margin-top: 30vmin;
     margin-bottom: 10px;
     margin-left: -5vmin;
     color: #0c2e59;
@@ -21,9 +40,10 @@ th {
     padding-right: 10px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .hoursTable {
-        margin-top: 50px;
+        margin-top: 190px;
+        transition: all 0.2s ease-out
     }
 }
 

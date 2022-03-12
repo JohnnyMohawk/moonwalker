@@ -3,13 +3,13 @@
     flex-direction: column;
 }
 
-a {
-    /* margin-bottom: -100px; */
+.heroLinks {
+    animation: transitionIn 4.5s;
     text-decoration: none;
     color: #0c2e59;
-    font-size: 23px;
+    font-size: 4vmin;
     font-family: 'Oswald', sans-serif;
-    line-height: 30px;
+    line-height: 5vmin;
     text-shadow:
     1px 1px 10px white,
     1px 1px 20px white,
@@ -20,7 +20,32 @@ a {
     1px 1px 25px white;
 }
 
-a:hover {
+.heroLinks:hover {
     transition: all 0.2s ease-out;
-    font-size: 25px;
+    font-size: 4.2vmin;
+}
+
+@keyframes transitionIn {
+    0% {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+  
+    50% {
+      opacity: 0;
+      transform: rotateX(-10deg);
+    }
+  
+    100% {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .heroLinks {
+        font-size: 24px;
+        line-height: 46px;
+    }
 }

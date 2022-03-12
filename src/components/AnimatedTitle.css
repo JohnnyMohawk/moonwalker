@@ -15,7 +15,7 @@
 }
 
 .animated-title {
-  margin-top: -70px;
+  margin-top: -80px;
   color: #0c2e59;
   font-family: 'Oswald', sans-serif;
   /* font-family: 'EB Garamond', serif !important; */
@@ -90,8 +90,9 @@
     font-family: 'EB Garamond', serif !important;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
     .animated-title {
         margin-top: -100px;
+        transition: all 0.2s ease-out
     }
 }
