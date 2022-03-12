@@ -53,14 +53,19 @@
   0% { transform: translate3d(0, -100%, 0); }
   100% { transform: translate3d(0, 0, 0); }
 }
+
+.aniTitleWrap {
+    margin-bottom: 5vmin;
+}
+
 .animated-title {
-  margin-top: -50px;
+  margin-top: -70px;
   color: #0c2e59;
   font-family: 'Oswald', sans-serif;
   /* font-family: 'EB Garamond', serif !important; */
   /* text-shadow:
     -1px -1px 14px red; */
-  height: 90vmin;
+  height: 60vmin;
   left: 50%;
   position: absolute;
   top: 50%;
@@ -72,10 +77,15 @@
   overflow: hidden;
   position: absolute;
   width: 100%;
+
 }
 .animated-title > div div {
   text-shadow:
-    10px 10px 5px #32507b80;
+    1px 1px 25px white,
+    1px 1px 25px white,
+    1px 1px 25px white,
+
+    1px 1px 25px white;
   font-size: 6vmin;
   line-height: 3vmin;
   padding: 2vmin 0;
@@ -122,6 +132,10 @@
     display: flex;
     flex-direction: row;
     font-family: 'EB Garamond', serif !important;
+}
+
+.addyLink {
+    margin-top: 200px;
 }
 
 .hero-container > h1 {

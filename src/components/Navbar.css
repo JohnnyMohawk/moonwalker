@@ -284,10 +284,10 @@
         font-size: 1.8rem;
         cursor: pointer;
         text-shadow:
-    -1px -1px 24px #32517b,
-    1px 1px 24px #32517b,
-    -1px -1px 24px #32517b,
-    1px 1px 24px #32517b;
+            -1px -1px 24px #32517b,
+            1px 1px 24px #32517b,
+            -1px -1px 24px #32517b,
+            1px 1px 24px #32517b;
     }
     
     .nav-links-mobile {
