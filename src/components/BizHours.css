@@ -1,0 +1,29 @@
+.hoursTable {
+    margin-top: 230px;
+    margin-bottom: 10px;
+    margin-left: -5vmin;
+    color: #0c2e59;
+    font-size: 23px;
+    font-family: 'Oswald', sans-serif;
+    line-height: 23px;
+    text-shadow:
+    1px 1px 10px white,
+    1px 1px 20px white,
+    1px 1px 25px white,
+    1px 1px 10px white,
+    1px 1px 20px white,
+    1px 1px 25px white,
+    1px 1px 25px white;
+}
+
+th {
+    text-align: right; 
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 400px) {
+    .hoursTable {
+        margin-top: 50px;
+    }
+}
+

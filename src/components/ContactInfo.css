@@ -1,0 +1,26 @@
+.numNaddy {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    /* margin-bottom: -100px; */
+    text-decoration: none;
+    color: #0c2e59;
+    font-size: 23px;
+    font-family: 'Oswald', sans-serif;
+    line-height: 30px;
+    text-shadow:
+    1px 1px 10px white,
+    1px 1px 20px white,
+    1px 1px 25px white,
+    1px 1px 10px white,
+    1px 1px 20px white,
+    1px 1px 25px white,
+    1px 1px 25px white;
+}
+
+a:hover {
+    transition: all 0.2s ease-out;
+    font-size: 25px;
+}
