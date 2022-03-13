@@ -1,6 +1,7 @@
 .cards {
     padding: 4rem;
     background: url("/src/background-images/white-brick1.jpeg") center center/cover no-repeat;
+    border-bottom: 4px solid #32517b;
 }
 
 .cards__container {

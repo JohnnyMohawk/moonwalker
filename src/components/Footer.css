@@ -1,5 +1,5 @@
 .footer-container {
-    background: linear-gradient(90deg, rgb(9, 1, 95) 0%, rgb(175, 0, 105, .6) 100%);
+    background: linear-gradient(120deg, rgba(255, 255, 255, .7),rgba(255, 255, 255, 0.975));
     padding: 4rem 0 2rem 0;
     display: flex;
     flex-direction: column;
@@ -13,23 +13,26 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-bottom: 24px;
+    margin-bottom: -24px;
     padding: 24px;
-    color: #fff;
+    color: #0c2e59;
 }
 
 .footer-subscription > p {
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Oswald', sans-serif;
 }
 
 .footer-subscription-heading {
-    margin-bottom: 24px;
-    font-size: 54px;
+    margin-bottom: 12px;
+    font-size: 6vmin;
+    line-height: 5.5vmin;
+    width: 90vw;
 }
 
 .footer-subscription-text {
+    font-family: 'EB Garamond', serif !important;
     margin-bottom: 24px;
-    font-size: 30px;
+    font-size: 5vmin;
 }
 
 .footer-input {
@@ -37,12 +40,12 @@
     border-radius: 2px;
     margin-right: 10px;
     outline: none;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Oswald', sans-serif;
     font-size: 30px;
-    margin-bottom: 16px;
-    border: 3px solid rgb(85, 179, 177);
+    border: 3px solid #32517b;
+    margin-bottom: 10px;
 }
-
+/* 
 .footer-links {
     width: 100%;
     max-width: 1000px;
@@ -67,14 +70,14 @@
 .footer-link-items > h2 {
     margin-top: -50px;
     font-family: 'Amatic SC', cursive;
-    color: #fff;
+    color: #0c2e59;
     font-size: 40px;
 }
 
 .footer-link-items a {
     font-family: 'Amatic SC', cursive;
     font-size: 24px;
-    color: #fff;
+    color: #0c2e59;
     text-decoration: none;
     margin-bottom: 8px;
 }
@@ -82,18 +85,18 @@
 .footer-link-items a:hover {
     color: #e9e9e9;
     transition: 0.3s ease-out;
-}
+} */
 
 .footer-email-form h2 {
     margin-bottom: 32px;
 }
 
 .footer-input::placeholder {
-    color: #b1b1b1;
+    color: #32517b;
 }
 
 .social-icon-link {
-    color: #fff;
+    color: #0c2e59;
     font-size: 24px;
 }
 
@@ -119,34 +122,36 @@
 }
 
 .social-logo {
-    color: #fff;
+    color: #0c2e59;
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
     text-decoration: none;
-    font-size: 1.2rem;
-    font-family: 'Homemade Apple', cursive;
+    font-size: 2rem;
+    font-family: 'EB Garamond', serif !important;
     display: flex;
     align-self: center;
     margin-bottom: 16px;
 }
 
 .website-rights {
-    color: #fff;
+    color: #0c2e59;
     margin-bottom: 16px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px !important;
 }
 
 @media screen and (max-width: 1030px) {
     .footer-subscription-heading {
         margin-bottom: 24px;
-        font-size: 40px;
+        /* font-size: 40px; */
     }
 }
 
 @media screen and (max-width: 820px) {
     .footer-subscription-heading {
         margin-bottom: 24px;
-        font-size: 26px;
+        /* font-size: 26px; */
     }
 
     .footer-links {
@@ -173,6 +178,6 @@
 @media screen and (max-width: 500px) {
     .footer-subscription-heading {
         margin-bottom: 24px;
-        font-size: 23px;
+        /* font-size: 23px; */
     }
 }

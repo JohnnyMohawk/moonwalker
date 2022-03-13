@@ -8,7 +8,7 @@ function Footer() {
         <div className="footer-container">
             <section className="footer-subscription">
                 <p className="footer-subscription-heading">
-                    Begin your journey! Sign up for the Roaring Grace newsletter.
+                    Subscribe to the Moonwalker Newsletter for updates and promotions!
                 </p>
                 <p className="footer-subscription-text">
                     You can unsubscribe at any time.
@@ -16,11 +16,11 @@ function Footer() {
                 <div className="input-areas">
                     <form>
                         <input type="email" name="email" placeholder="Your Email" className="footer-input" />
-                        <Button buttonStyle='btn--outline'>Subscribe</Button>
+                        <Button buttonStyle='btn--outline'>SUBSCRIBE</Button>
                     </form>
                 </div>
             </section>
-            <div className="footer-links">
+            {/* <div className="footer-links">
                 <div className="footer-link-wrapper">
                     <div className="footer-link-items">
                         <h2>About RG</h2>
@@ -35,48 +35,25 @@ function Footer() {
                         <Link to="/">Privacy Policy</Link>
                     </div>
                 </div>
-            </div>
+            </div> */}
         <section className="social-media">
             <div className="social-media-wrap">
                 <div className="footer-logo">
                     <Link to="/" className="social-logo">
-                        Roaring Grace
+                        Moonwalker Cafe
                     </Link>
                 </div>
-                <small className="website-rights">Roaring Grace © 2021</small>
+                <small className="website-rights">Moonwalker Cafe © {new Date().getFullYear()}</small>
                 <div className="social-icons">
-                    <Link
-                        className="social-icon-link instagram"
-                        to="/"
-                        target="_blank"
-                        aria-label="Instagram"
-                    >
+                    <a className="social-icon-link instagram" href="https://www.instagram.com/moonwalkercafe/" target="_blank" rel="noopennernoreferrer">
                         <i className="fab fa-instagram" />
-                    </Link>
-                    <Link
-                        className="social-icon-link youtube"
-                        to="/"
-                        target="_blank"
-                        aria-label="Youtube"
-                    >
-                        <i className="fab fa-youtube" />
-                    </Link>
-                    <Link
-                        className="social-icon-link twitter"
-                        to="/"
-                        target="_blank"
-                        aria-label="Twitter"
-                    >
+                    </a>
+                    <a className="social-icon-link facebook" href="https://www.facebook.com/moonwalkercafe/" target="_blank" rel="noopennernoreferrer">
+                        <i className="fab fa-facebook" />
+                    </a>
+                    <a className="social-icon-link twitter" href="https://twitter.com" target="_blank" rel="noopennernoreferrer">
                         <i className="fab fa-twitter" />
-                    </Link>
-                    <Link
-                        className="social-icon-link linkedin"
-                        to="/"
-                        target="_blank"
-                        aria-label="Linkedin"
-                    >
-                        <i className="fab fa-linkedin" />
-                    </Link>
+                    </a>
                 </div>
             </div>
         </section>
