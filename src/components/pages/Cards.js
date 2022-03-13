@@ -6,12 +6,6 @@ import './Cards.css'
 function Cards() {
     return (
         <div className="cards">
-            {/* <Quote /> */}
-            {/* <h1>"Moonwalker Cafe is the scratch kitchen every neighborhood deserves"</h1> */}
-            {/* <div>Moonwalker</div> 
-            <div> 
-                <span>Cafe is the scratch kitchen every neighborhood deserves</span>
-            </div> */}
             <div className="cards__container">
                 <div className="cards__wrapper">
                     <ul className="cards__items">

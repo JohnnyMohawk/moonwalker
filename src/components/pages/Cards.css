@@ -1,9 +1,9 @@
 .cards {
     /* border-top: solid pink 8px; */
     padding: 4rem;
-    background: white;
+    background: url("/src/background-images/white-brick1.jpeg") center center/cover no-repeat;
     /* background: linear-gradient(90deg, rgb(246, 192, 101) 0%, rgb(85, 179, 177) 100%); */
-    /* background: url('../../back-images/flower-print.png') center center/cover no-repeat; */
+    /* background: url('../../back-images/white-brick.jpeg') center center/cover no-repeat; */
 }
 
 h1 {
@@ -45,7 +45,7 @@ h3 {
 
 .cards__wrapper {
     position: relative;
-    margin: 50px 0 45px;
+    margin: 30px 0 45px;
 }
 
 .cards__items {
