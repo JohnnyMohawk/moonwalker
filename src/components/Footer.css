@@ -134,6 +134,11 @@
     margin-bottom: 16px;
 }
 
+.social-logo:hover,
+.social-icon-link:hover {
+    color: #32517b;
+}
+
 .website-rights {
     color: #0c2e59;
     margin-bottom: 16px;

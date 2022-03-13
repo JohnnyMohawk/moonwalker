@@ -37,6 +37,10 @@
     align-items: center;
 }
 
+.navbar-logo:hover {
+    color: #f8d066;
+}
+
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
     .navbar {
     -webkit-backdrop-filter: none;
