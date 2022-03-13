@@ -7,9 +7,9 @@ video {
     z-index: -1;
 }
 
-.spirit-container {
-    /* background: url('../../../src/background-images/flower-print.png') center center/cover no-repeat; */
-    /* background-color: rgba(255, 255, 255, 0.2); */
+.service-container {
+    background: url('../../../src/background-images/flower-print.png') center center/cover no-repeat;
+    background-color: rgba(255, 255, 255, 0.2);
     height: 100vh;
     width: 100%;
     display: flex;
@@ -20,7 +20,7 @@ video {
     object-fit: contain;
 }
 
-.spirit-container > h1 {
+.service-container > h1 {
     font-family: 'Amatic SC', cursive;
     color: rgb(3, 196, 161);
     font-size: 115px;
@@ -32,33 +32,39 @@ video {
     2px 2px 0 rgb(26, 26, 46);
 }
 
-/* .spirit-container > p {
+/* .service-container > p {
 
     color: rgb(85, 179, 177);
 
     font-family: 'Amatic SC', cursive;
 } */
 
-.spirit-text {
+.service-text {
     overflow: auto;
     margin: 20px 150px;
     color: rgb(22, 33, 62);
 }
 
-.spirit-text > p {
+.service-text > p {
     font-family: 'Urbanist', sans-serif;
     font-size: 30px;
-    align-items: center;
+    /* align-items: center; */
+
 }
 
-.spirit-text > p > span {
+.service-text > h2 {
     font-family: 'Homemade Apple', cursive;
 }
 
 
 
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
-    .spirit-text {
+    /* .service-text {
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+    } */
+
+    .service-text {
         -webkit-backdrop-filter: none;
         backdrop-filter: none;
         background-color: rgba(255, 255, 255, 0.6);
@@ -68,32 +74,32 @@ video {
         padding: 20px 30px;
     }
 }
-.spirit-btns {
+.service-btns {
     margin-top: 2px;
 }
 
-.spirit-btns .btn {
+.service-btns .btn {
     margin: 10px;
 }
 
 @media screen and (max-width: 960px) {
-    .spirit-container > h1 {
+    .service-container > h1 {
         font-size: 115px;
         /* margin-top: -400px; */
     }
     
-    .spirit-text {
+    .service-text {
         margin: 15px 20px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .spirit-container > h1 {
+    .service-container > h1 {
         font-size: 115px;
         /* margin-top: -400px; */
     }
 
-    .spirit-container > p {
+    .service-container > p {
         font-size: 60px;
     }
 

@@ -1,8 +1,13 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 // import App from '../../App';
-import '../pages/Services.css'
+import '../pages/Food.css'
 
-function Services() {
+function Food() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    })
+
     return (
         <div className="service-container">
             <video src="/videos/flowers.mp4" autoPlay loop muted />
@@ -16,4 +21,4 @@ function Services() {
     )
 }
 
-export default Services
+export default Food

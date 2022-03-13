@@ -1,10 +1,15 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import ImageSlider from "../ImageSlider"
 import { SliderData } from "../SliderData"
 // import App from '../../App';
-import "../pages/Beauty.css"
+import "../pages/Press.css"
 
-const Beauty = () => {
+const Press = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    })
+
     return (
         <div className="beauty-container">
             <video src="/videos/ripples.mp4" autoPlay loop muted />
@@ -16,4 +21,4 @@ const Beauty = () => {
     )
 }
 
-export default Beauty
+export default Press

@@ -1,8 +1,13 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 // import App from '../../App';
 import '../pages/About.css'
 
 function About() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    })
+
     return (
         <div className="info-container">
             <video src="/videos/flowers.mp4" autoPlay loop muted />

@@ -10,7 +10,6 @@ function HeroSection() {
     return (
         <div className="hero-container">
             <div className="overlay">
-                {/* <video src="/videos/flowers.mp4" autoPlay loop muted /> */}
                 <img src='/images/med-tile.jpeg' alt='moonwalker counter' className='hero-image' />
                 
                 <AnimatedTitle title="Moonwalker" subTitle="Cafe" city="Chicago" hood="Avondale" />
