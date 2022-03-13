@@ -10,6 +10,7 @@
 
 #quoteText {
     margin: 5vmin 0;
+    color: #32517b !important;
     font-size: 4vmin;
     font-family: 'Oswald', sans-serif;
     max-width: 100vw;

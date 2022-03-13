@@ -1,5 +1,4 @@
 import React from 'react'
-import Quote from '../Quote'
 import CardItem from './CardItem'
 import './Cards.css'
 
@@ -9,14 +8,14 @@ function Cards() {
             <div className="cards__container">
                 <div className="cards__wrapper">
                     <ul className="cards__items">
-                        <CardItem src="images/yoga-mountains.jpeg" text="Blossom into your BEST self!" label="Spiritual" path="/spiritual" />
-                        <CardItem src="images/rocks.jpeg" text="Follow your light. Live your truth." label="Spiritual" path="/spiritual" />
-                        <CardItem src="images/chakras.jpeg" text="Explore sacred geometry" label="Spiritual" path="/spiritual" />
+                        <CardItem src="images/moonwalker5.webp" text="Our Daily Food Menu." path="/spiritual" />
+                        <CardItem src="images/moonwalker6.jpeg" text="Our Drink Menu." path="/spiritual" />
+                        <CardItem src="images/moonwalker7.jpeg" text="Saturday Supper Club & Pop Ups." path="/spiritual" />
                     </ul>
                     <ul className="cards__items">
-                        <CardItem src="images/bonsai.jpeg" text="How to age like a bonsai tree." label="Health" path="/spiritual" />
-                        <CardItem src="images/brushes.png" text="You are creative. Just be you." label="Creativity" path="/spiritual" />
-                        <CardItem src="images/baby.jpeg" text="Daily Affirmations: For a good day" label="Gratitude" path="/spiritual" />
+                        <CardItem src="images/la-chicago.jpeg" text="Our Story." path="/spiritual" />
+                        <CardItem src="images/local-food.jpeg" text="Farmers, Suppliers & Friends." path="/spiritual" />
+                        <CardItem src="images/exciting-news.jpeg" text="Moonwalker Cafe in the Media!" path="/spiritual" />
                     </ul>
                 </div>
             </div>

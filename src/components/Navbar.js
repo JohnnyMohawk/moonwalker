@@ -57,17 +57,17 @@ function Navbar() {
                         </li>
                         <li className="nav-item">
                             <Link to="/spiritual" className="nav-links" onClick={closeMobileMenu}>
-                                Press
-                            </Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link to="/recipes" className="nav-links" onClick={closeMobileMenu}>
                                 About
                             </Link>
                         </li>
                         <li className="nav-item">
+                            <Link to="/recipes" className="nav-links" onClick={closeMobileMenu}>
+                                Friends
+                            </Link>
+                        </li>
+                        <li className="nav-item">
                             <Link to="/beauty" className="nav-links" onClick={closeMobileMenu}>
-                                Positions
+                                Press
                             </Link>
                         </li>
                     </ul>
