@@ -30,6 +30,7 @@
   color: white;
   text-align: center;
   border-bottom: #0c2e59 4px solid;
+  padding-bottom: 60px;
 }
 
 @mixin clearfix() {
@@ -42,7 +43,7 @@
   }
 }
 
-.menu-container {
+.drink-menu-container {
   @include clearfix;
   min-width: 50%;
   margin: 1em;
@@ -123,7 +124,7 @@ h3 {
 }
 
 @media screen and (max-width: 900px) {
-  .menu-container {
+  .drink-menu-container {
     min-width: 70%;
   }
 }
@@ -141,7 +142,7 @@ h3 {
 }
 
 @media screen and (max-width: 600px) {
-  .menu-container {
+  .drink-menu-container {
     min-width: 90%;
   }
 
