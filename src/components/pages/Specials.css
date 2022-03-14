@@ -8,7 +8,7 @@ video {
 }
 
 .service-container {
-    background: url('../../../src/background-images/flower-print.png') center center/cover no-repeat;
+    /* background: url('../../../src/background-images/flower-print.png') center center/cover no-repeat; */
     background-color: rgba(255, 255, 255, 0.2);
     height: 100vh;
     width: 100%;

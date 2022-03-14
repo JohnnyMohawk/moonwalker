@@ -9,7 +9,7 @@ function Food() {
     })
 
     return (
-        <div className="drink-container">
+        <div className="food-wrap">
             <div className="menu-overlay">
                 <img src='/images/med-tile.jpeg' alt='moonwalker counter' className='hero-image' />
 

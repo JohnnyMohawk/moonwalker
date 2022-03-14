@@ -1,108 +1,120 @@
-video {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    
-    z-index: -1;
+.friends-cards {
+    padding: 4rem;
 }
 
-.recipe-container {
-    background: url('../../../src/background-images/kitchen.jpeg') center center/cover no-repeat;
-    background-color: rgba(255, 255, 255, 0.2);
-    height: 100vh;
-    width: 100%;
+.friends-cards__container {
     display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
+    flex-flow: column;
     align-items: center;
-    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
-    object-fit: contain;
+    max-width: 1120px;
+    width: 90%;
+    margin: 0 auto;
 }
 
-.recipe-container > h1 {
-    font-family: 'Amatic SC', cursive;
-    color: rgb(3, 196, 161);
-    font-size: 115px;
-    margin-top: 20px;
-    text-shadow:
-    -1px -1px 0 rgba(255, 255, 255, 0.1),
-    1px 1px 0 rgba(255, 255, 255, 0.1),
-    -1px -1px 0 rgba(255, 255, 255, 0.1),
-    1px 1px 0 rgba(255, 255, 255, 0.1);
+.friends-header {
+    font-size: 5vmax;
+    color: #0c2e59;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 20px;
+    margin-left: 10px;
+  }
+
+.friends-cards__wrapper {
+    position: relative;
+    margin: 25px 0 45px;
 }
 
-/* .recipe-container > p {
-
-    color: rgb(85, 179, 177);
-
-    font-family: 'Amatic SC', cursive;
-} */
-
-.recipe-text {
-    overflow: auto;
-    margin: 20px 150px;
-    color: rgb(22, 33, 62);
+.friends-cards__items {
+    margin-bottom: 24px;
 }
 
-.recipe-text > .name {
-    font-family: 'Homemade Apple', cursive;
+.friends-cards__item {
+    display: flex;
+    flex: 1;
+    margin: 0 1rem;
+    border-radius: 10px;
 }
 
-.recipe-text > p {
-    font-family: 'Urbanist', sans-serif;
-    font-size: 30px;
-    align-items: center;
+.friends-cards__item__link {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.friends-cards__item__pic-wrap {
+    position: relative;
+    width: 100%;
+    padding-top: 67%;
+    overflow: hidden;
+}
+
+.fade-img {
+    animation-name: fade-img;
+    animation-duration: 2s;
+}
+
+.friends-cards__item__img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    transition: all 0.2s linear;
+}
+
+.friends-cards__item__img:hover {
+    transform: scale(1.1);
+}
+
+.friends-cards__item__info {
+    padding: 20px 30px 30px;
+    background-color: rgb(254, 249, 227, .5);
+}
+
+.friends-cards__item__text {
+    color: #0c2e59;
+    font-family: 'Oswald', sans-serif;
+    font-size: 23px;
+    line-height: 23px;
+    inline-size: 255px;
+}
+
+@media only screen and (min-width: 1200px) {
+    .content__blog__container {
+        width: 84%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .friends-cards__items {
+        display: flex;
+    }
+    /* h1 {
+        font-size: 100px;
+    } */
+}
+
+@media only screen and (max-width: 1024px) {
+    .friends-cards__item {
+        margin-bottom: 2rem;
+    }
     
 }
 
-@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
-    .recipe-text {
-        -webkit-backdrop-filter: none;
-        backdrop-filter: none;
-        background-color: rgba(255, 255, 255, 0.4);
-        -webkit-backdrop-filter: blur(4px);
-        backdrop-filter: blur(4px);
-        border-radius: 5px;
-        padding: 20px 30px;
-    }
-}
-
-.recipe-btns {
-    margin-top: 2px;
-}
-
-.recipe-btns .btn {
-    margin: 10px;
-}
-
-@media screen and (max-width: 960px) {
-    .recipe-container > h1 {
-        font-size: 115px;
-        /* margin-top: -400px; */
-    }
-    
-    .recipe-text {
-        margin: 15px 20px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .recipe-container > h1 {
-        font-size: 115px;
-        /* margin-top: -400px; */
-    }
-
-    .recipe-container > p {
-        font-size: 60px;
-    }
-
-    .btn-mobile {
-        display: block;
-        text-decoration: none;
-    }
-
-    .btn {
-        width: 100%;
+@media only screen and (max-width: 980px) {
+    h2, h3 {
+        font-size: 25px;
     }
 }

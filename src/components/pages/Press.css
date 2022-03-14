@@ -1,62 +1,84 @@
-.contacts {
+@keyframes transitionIn {
+    0% {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+  
+    100% {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+  
+  }
+
+  * {
+      max-width: 100vw
+  }
+  
+  .hero-image {
+      object-fit: cover;
+      width: 100vw;
+      height: 100%;
+      position: fixed;
+      z-index: -1;
+  }
+  
+  .news-overlay {
     background-image: var(--background-image);
-    height: 100vh;
-}
-
-.contacts h1 {
-    /* padding: 50px 80px; */
-    /* margin-top: 5px; */
-    color: rgb(3, 196, 161);
-    text-shadow:
-    -2px -2px 0 rgb(26, 26, 46),
-    2px 2px 0 rgb(26, 26, 46),
-    -2px -2px 0 rgb(26, 26, 46),
-    2px 2px 0 rgb(26, 26, 46);
-}
-
-.slider {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100vw;
+    color: white;
+    text-align: center;
+    border-bottom: #0c2e59 4px solid;
+  }
+  
+  .news-container {
+    width: 75vw !important;
+    margin: 5em 1em;
+    border: 1px solid #0c2e59;
+    border-radius: 20px;
+    padding: 2em 1em 1em 2em;
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    animation: transitionIn 1s;
+  }
 
-}
+  .news-header {
+    color: #0c2e59;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: -75px;
+    margin-left: 10px;
+  }
 
-.art-image {
-    margin-top: 20px;
-    /* max-width: 100%; */
-    border-radius: 10px;
-    height: 60vh;
-}
+  .news {
+      font-style: normal !important;
+      color: #0c2e59;
+      font-family: 'EB Garamond', serif !important;
+    font-size: 3vmin !important;
+    text-align: left;
+    margin-top: -10px;
+    margin-bottom: 1.5em;
+    max-width: 95%;
+    margin-left: 1vw;
+  }
 
-.right-arrow {
-    position: absolute;
-    top: 50%;
-    right: 32px;
-    font-size: 3rem;
-    color: rgb(9, 1, 95);
-    z-index: 10;
-    cursor: pointer;
-    user-select: none;
-}
+  .storyWrap {
+      margin-left: -10px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .news-container {
+      min-width: 90%;
+      margin-bottom: 2em;
+      margin-top: 2em;
+    }
+  
+  }
 
-.left-arrow {
-    position: absolute;
-    top: 50%;
-    left: 32px;
-    font-size: 3rem;
-    color: rgb(9, 1, 95);
-    z-index: 10;
-    cursor: pointer;
-    user-select: none;
-}
-
-.slide {
-    opacity: 0;
-    transition-duration:  1s ease;
-}
-
-.slide.active {
-    opacity: 1;
-    transition-duration: 1s;
-    transform: scale(1.08);
-}
+  
+  
+  

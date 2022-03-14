@@ -11,12 +11,27 @@ const Press = () => {
     })
 
     return (
-        <div className="beauty-container">
-            <video src="/videos/ripples.mp4" autoPlay loop muted />
-            <section className="contacts" id="projects-page">
-                <h1>Beautiful Images</h1>
-                <ImageSlider slides={SliderData}/>
-            </section>
+        <div className="news-wrap">
+            <div className="news-overlay">
+                <img src='/images/med-tile.jpeg' alt='moonwalker counter' className='hero-image' />
+
+                <div className="news-container">
+                <h1 className='news-header'>Moonwalker Cafe in the Media</h1>
+                    {/* <div className='storyWrap'>
+                    <h1 className='news-header'>Our Story</h1>
+                    <Lottie
+                    className='heartimation'
+                    loop
+                    animationData={heartLottie}
+                    play
+                    style={{ width: 200, height: 200 }}
+                    />
+                </div> */}
+
+                <div className='news'>
+                </div>
+                </div>
+            </div>
         </div>
     )
 }

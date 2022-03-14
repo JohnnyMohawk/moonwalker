@@ -10,7 +10,7 @@ function About() {
     })
 
     return (
-        <div className="drink-container">
+        <div className="about-wrap">
             <div className="about-overlay">
                 <img src='/images/med-tile.jpeg' alt='moonwalker counter' className='hero-image' />
 
