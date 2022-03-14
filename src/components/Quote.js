@@ -5,25 +5,25 @@ export default function Quote() {
     return (
         <div id="quoteWrap">
             <h1 id="quoteText">
-                <span>Moonwalker</span>
-                <span>&nbsp;</span>
-                <span>Cafe</span>
-                <span>&nbsp;</span>
-                <span>is</span>
-                <span>&nbsp;</span>
-                <span>the</span>
-                <span>&nbsp;</span>
-                <span>scratch</span>
-                <span>&nbsp;</span>
-                <span>kitchen</span>
-                <span>&nbsp;</span>
-                <span>every</span>
-                <span>&nbsp;</span>
-                <span>neighborhood</span>
-                <span>&nbsp;</span>
-                <span>deserves.</span>
-                <span>&nbsp;</span>
-                <span>- Chicago Reader</span>
+                <span className='word'>Moonwalker</span>
+                <span className='word'>&nbsp;</span>
+                <span className='word'>Cafe</span>
+                <span className='word'>&nbsp;</span>
+                <span className='word'>is</span>
+                <span className='word'>&nbsp;</span>
+                <span className='word'>the</span>
+                <span className='word'>&nbsp;</span>
+                <span className='word'>scratch</span>
+                <span className='word'>&nbsp;</span>
+                <span className='word'>kitchen</span>
+                <span className='word'>&nbsp;</span>
+                <span className='word'>every</span>
+                <span className='word'>&nbsp;</span>
+                <span className='word'>neighborhood</span>
+                <span className='word'>&nbsp;</span>
+                <span className='word'>deserves.</span>
+                <span className='word'>&nbsp;</span>
+                <span className='word'>- Chicago Reader</span>
             </h1>
         </div>
     )

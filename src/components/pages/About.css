@@ -1,108 +1,84 @@
-video {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    
-    z-index: -1;
-}
-
-.info-container {
-    background: url('../../../src/background-images/chakras.jpeg') center center/cover no-repeat;
-    background-color: rgba(255, 255, 255, 0.2);
-    height: 100vh;
-    width: 100%;
+@keyframes transitionIn {
+    0% {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+  
+    100% {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+  
+  }
+  
+  .hero-image {
+      object-fit: cover;
+      width: 100vw;
+      height: 100%;
+      position: fixed;
+      z-index: -1;
+  }
+  
+  .about-overlay {
+    background-image: var(--background-image);
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
-    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
-    object-fit: contain;
-}
+    justify-content: center;
+    height: 100%;
+    width: 100vw;
+    color: white;
+    text-align: center;
+    border-bottom: #0c2e59 4px solid;
+  }
+  
+  .about-container {
+    width: 75vw !important;
+    margin: 6em 1em;
+    border: 1px solid #0c2e59;
+    border-radius: 20px;
+    padding: 2em 1em 1em 2em;
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    animation: transitionIn 1s;
+  }
 
-.info-container > h1 {
-    font-family: 'Amatic SC', cursive;
-    color: rgb(3, 196, 161);
-    font-size: 115px;
-    margin-top: 20px;
-    text-shadow:
-    -1px -1px 0 rgba(255, 255, 255, 0.1),
-    1px 1px 0 rgba(255, 255, 255, 0.1),
-    -1px -1px 0 rgba(255, 255, 255, 0.1),
-    1px 1px 0 rgba(255, 255, 255, 0.1);
-}
+  .about-header {
+    color: #0c2e59;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: -75px;
+    margin-left: 10px;
+  }
 
-/* .info-container > p {
+  .about-us {
+      font-style: normal !important;
+      color: #0c2e59;
+      font-family: 'EB Garamond', serif !important;
+    font-size: 3vmin !important;
+    text-align: left;
+    margin-top: -10px;
+    margin-bottom: 1.5em;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
 
-    color: rgb(85, 179, 177);
+  .storyWrap {
+      margin-left: -10px;
+  }
 
-    font-family: 'Amatic SC', cursive;
-} */
+  .heartimation {
+      margin: 0 auto;
 
-.article-text {
-    overflow: auto;
-    margin: 20px 150px;
-    color: rgb(22, 33, 62);
-}
-
-.article-text > .name {
-    font-family: 'Homemade Apple', cursive;
-}
-
-.article-text > p {
-    font-family: 'Urbanist', sans-serif;
-    font-size: 30px;
-    align-items: center;
-    
-}
-
-@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
-    .article-text {
-        -webkit-backdrop-filter: none;
-        backdrop-filter: none;
-        background-color: rgba(255, 255, 255, 0.4);
-        -webkit-backdrop-filter: blur(4px);
-        backdrop-filter: blur(4px);
-        border-radius: 5px;
-        padding: 20px 30px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .about-container {
+      min-width: 90%;
+      margin-bottom: 2em;
     }
-}
+  
+  }
 
-.info-btns {
-    margin-top: 2px;
-}
-
-.info-btns .btn {
-    margin: 10px;
-}
-
-@media screen and (max-width: 960px) {
-    .info-container > h1 {
-        font-size: 115px;
-        /* margin-top: -400px; */
-    }
-    
-    .article-text {
-        margin: 15px 20px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .info-container > h1 {
-        font-size: 115px;
-        /* margin-top: -400px; */
-    }
-
-    .info-container > p {
-        font-size: 60px;
-    }
-
-    .btn-mobile {
-        display: block;
-        text-decoration: none;
-    }
-
-    .btn {
-        width: 100%;
-    }
-}
+  
+  
+  

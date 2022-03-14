@@ -9,7 +9,7 @@ function Drinks() {
     })
 
     return (
-        <div className="spirit-container">
+        <div className="drink-container">
             <div className="menu-overlay">
                 <img src='/images/med-tile.jpeg' alt='moonwalker counter' className='hero-image' />
 
@@ -63,44 +63,44 @@ function Drinks() {
                     {/* <p>A well-written, appetite inspiring description that aims to inform the information and food deprived consumer</p> */}
                     <h3>
                         <span>Hazelnut</span>
-                        <span>.</span>
-                        <span>.</span>
+                        <span>*</span>
+                        <span>*</span>
                     </h3>
                     {/* <p>A well-written, appetite inspiring description that aims to inform the information and food deprived consumer</p> */}
                     <h3>
                         <span>Matcha</span>
-                        <span>.</span>
-                        <span>.</span>
+                        <span>*</span>
+                        <span>*</span>
                     </h3>
                     {/* <p>A well-written, appetite inspiring description that aims to inform the information and food deprived consumer</p> */}
                     <h3>
                         <span>Snickerdoodle</span>
-                        <span>.</span>
-                        <span>.</span>
+                        <span>*</span>
+                        <span>*</span>
                     </h3>
                     {/* <p>A well-written, appetite inspiring description that aims to inform the information and food deprived consumer</p> */}
                     <h3>
                         <span>Vanilla</span>
-                        <span>.</span>
-                        <span>.</span>
+                        <span>*</span>
+                        <span>*</span>
                     </h3>
                     {/* <p>A well-written, appetite inspiring description that aims to inform the information and food deprived consumer</p> */}
                     <h3>
                         <span>Sugar Free Vanilla</span>
-                        <span>.</span>
-                        <span>.</span>
+                        <span>*</span>
+                        <span>*</span>
                     </h3>
                     {/* <p>A well-written, appetite inspiring description that aims to inform the information and food deprived consumer</p> */}
                     <h3>
                         <span>Mocha</span>
-                        <span>.</span>
-                        <span>.</span>
+                        <span>*</span>
+                        <span>*</span>
                     </h3>
                     {/* <p>A well-written, appetite inspiring description that aims to inform the information and food deprived consumer</p> */}
                     <h3>
                         <span>Chai</span>
-                        <span>.</span>
-                        <span>.</span>
+                        <span>*</span>
+                        <span>*</span>
                     </h3>
                     {/* <p>A well-written, appetite inspiring description that aims to inform the information and food deprived consumer</p> */}
                 </div>
@@ -120,14 +120,14 @@ function Drinks() {
                     {/* <p>A well-written, appetite inspiring description that aims to inform the information and food deprived consumer</p> */}
                     <h3>
                         <span>Almond Joyous</span>
-                        <span>.</span>
-                        <span>.</span>
+                        <span>*</span>
+                        <span>*</span>
                     </h3>
                     {/* <p>A well-written, appetite inspiring description that aims to inform the information and food deprived consumer</p> */}
                     <h3>
                         <span>Hazelnut Mocha</span>
-                        <span>.</span>
-                        <span>.</span>
+                        <span>*</span>
+                        <span>*</span>
                     </h3>
                     {/* <p>A well-written, appetite inspiring description that aims to inform the information and food deprived consumer</p> */}
                 </div>
