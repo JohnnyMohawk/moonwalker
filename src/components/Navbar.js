@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import Lottie from 'react-lottie-player'
-import { Button } from './Button'
 import moongirl from '../../src/animations/moongirl.json'
 import './Navbar.css'
 

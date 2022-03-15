@@ -11,26 +11,15 @@ const Press = () => {
     })
 
     return (
-        <div className="news-wrap">
-            <div className="news-overlay">
-                <img src='/images/med-tile.jpeg' alt='moonwalker counter' className='hero-image' />
-
-                <div className="news-container">
-                <h1 className='news-header'>Moonwalker Cafe in the Media</h1>
-                    {/* <div className='storyWrap'>
-                    <h1 className='news-header'>Our Story</h1>
-                    <Lottie
-                    className='heartimation'
-                    loop
-                    animationData={heartLottie}
-                    play
-                    style={{ width: 200, height: 200 }}
-                    />
-                </div> */}
-
-                <div className='news'>
-                </div>
-                </div>
+        <div className="logo-cards__wrapper">
+            <h1 className='friendsHeader'>Moonwalker in the Media!</h1>
+            <div className="logo-row">
+                <a className="logo-cards__items" href="https://chicagoreader.com/food-drink/moonwalker-cafe-is-the-scratch-kitchen-every-neighborhood-deserves/" target="_blank" rel="noopennernoreferrer">
+                    <img src='/images/Chicago Reader Logo.png' alt='moonwalker counter' className='logo-cards__img' />
+                </a> 
+                <a className="logo-cards__items" href="https://www.chicagomag.com/chicago-magazine/december-2021/the-10-hottest-restaurants-in-chicago-right-now-10/" target="_blank" rel="noopennernoreferrer">  
+                    <img src='/images/Chicago Magazine.png' alt='moonwalker counter' className='logo-cards__img' />
+                </a>
             </div>
         </div>
     )

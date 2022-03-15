@@ -97,9 +97,9 @@
 }
 
 .nav-links:hover {
-    border-bottom: 6px solid #cdae84;
+    border-bottom: 6px solid #f8d066;
     transition: all 0.2s ease-out;
-    -webkit-filter: invert(100%) !important;
+    color: #f8d066;
 }
 
 .fa-bars {
