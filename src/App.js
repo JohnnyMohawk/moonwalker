@@ -8,7 +8,6 @@ import About from './components/pages/About';
 import Friends from './components/pages/Friends';
 import Press from './components/pages/Press';
 import Specials from './components/pages/Specials';
-import Contact from './components/pages/Contact';
 import Footer from './components/Footer';
 
 
@@ -25,7 +24,6 @@ function App() {
         <Route path='/friends' component={Friends} />
         <Route path='/press' component={Press} />
         <Route path='/specials' component={Specials} />
-        <Route path='/contact' component={Contact} />
       </Switch>
       <Footer />
     </Router>

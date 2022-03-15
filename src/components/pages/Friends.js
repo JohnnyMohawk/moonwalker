@@ -1,9 +1,6 @@
 import React, {useEffect} from 'react'
-import '../../App.css'
-import HeroSection from '../HeroSection'
 import LogoCards from '../LogoCards'
-import Quote from '../Quote'
-import Cards from './Cards'
+
 
 
 function Friends () {
@@ -15,8 +12,6 @@ function Friends () {
     return (
         <div className="about-overlay">
             <img src='/images/med-tile.jpeg' alt='moonwalker counter' className='hero-image' />
-            {/* <Quote /> */}
-            {/* <Cards /> */}
             <LogoCards />
 
         </div>
