@@ -11,7 +11,7 @@
 
 }
 
-.food-menu-overlay {
+.drink-menu-overlay {
     background-image: var(--background-image);
     display: flex;
     flex-direction: column;
@@ -25,7 +25,7 @@
 
 }
 
-.food-menu-container {
+.drink-menu-container {
     color: #0c2e59;
     font-family: 'Oswald', sans-serif;
     width: 65%;
@@ -38,81 +38,126 @@
     animation: transitionIn 1s;
 }
 
-.food-menu-header {
+.drink-menu-header {
     color: #0c2e59;
     font-family: 'Oswald', sans-serif;
     font-size: 36px;
 }
 
-.food-menu-details {
-    color: #0c2e59;
-    font-family: 'Oswald', sans-serif;
-    font-size: 1.9vmax;
-    /* height: 3vmin; */
+.drink-sizes {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-bottom: .5vmin;
+    font-size: 2.5vmin !important;
+    /* width: 12%; */
 }
 
-.item-price-wrap {
+.drink-size-sm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width:10%;
+    margin-right: 4vmin;
+}
+
+.drink-size-lg {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 10%;
+    margin-right: -10px;
+}
+
+.drink-menu-details {
+    color: #0c2e59;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1vmax;
+    height: 10px;
+}
+
+.drink-menu-content-wrap {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: end;
-    margin-top: -10px;
-    height: 60px;
+    margin-bottom: -3vmin;
 }
 
-.menu-item {
+.drink-item-price-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin-top: -10px; */
+    height: 60px;
+    width: 20%;
+}
+
+.drink-menu-item {
     font-size: 4vmin;
 }
 
-.menu-price {
+.drink-menu-price-sm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     font-size: 3vmin;
-    margin-top: 1.2em !important;
+    margin-right: 1em;
+    width: 10%;
 }
 
-.menu-description {
-    text-align: left;
-    line-height: 3.1vmin;
+.drink-menu-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     font-size: 3vmin;
-    font-style: italic;
-    /* font-family: 'EB Garamond', serif; */
+    width: 10%;
 }
+
 
 @media screen and (max-width: 800px) {
-    .food-menu-container {
+    .drink-menu-container {
         width: 75%;
     }
 
-    .item-price-wrap {
+    .drink-item-price-wrap {
         height: 65px;
     }
+
 }
 
 @media screen and (max-width: 700px) {
-    .food-menu-container {
+    .drink-menu-container {
         width: 85%;
     }
 
-    .item-price-wrap {
-        /* margin-bottom: -10px; */
+    .drink-item-price-wrap {
         height: 55px;
     }
 }
 
 @media screen and (max-width: 550px) {
-    .food-menu-container {
-        width: 100%;
-        margin: 0px;
-        padding: 1em 1.75em;
+
+    /* .drink-menu-content-wrap {
+        margin-bottom: 0;
+    } */
+
+    .drink-menu-container {
+        /* width: 100%; */
+        /* margin: 0px; */
+        padding: 1em 3em 1em 2em;
     }
 
-    .item-price-wrap {
+    .drink-item-price-wrap {
         height: 45px;
     }
 
-
-    .food-menu-container {
-        border-radius: 0px;
+    .drink-size-lg {
+        margin-right: -7px;
     }
+
+    /* .drink-menu-container {
+        border-radius: 0px;
+    } */
 
     .menu-description {
         margin-bottom: 5px;
@@ -121,19 +166,22 @@
 
 @media screen and (max-width: 450px) {
 
-    .food-menu-details {
+    .drink-menu-details {
         font-size: 3.5vmin !important;
-        margin-bottom: 1vmin;
+        margin-bottom: 20px;
     }
 
-    .item-price-wrap {
+    .drink-item-price-wrap {
         height: 35px;
     }
 }
 
 @media screen and (max-width: 370px) {
 
-    .item-price-wrap {
+    .drink-menu-details {
+    }
+
+    .drink-item-price-wrap {
         height: 30px;
     }
 
@@ -143,4 +191,10 @@
         line-height: 12px;
     }
 
+}
+
+@media screen and (min-width: 1000px) {
+    .drink-size-sm {
+        margin-right: 5vmin;
+    }
 }
