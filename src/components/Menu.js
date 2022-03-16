@@ -11,7 +11,7 @@ function Menu(props) {
 
                 {props.menuData.map((menuItem) => {
                     return (
-                    <div>
+                    <div className='itemNprice'>
                         <h3>
                             <span className='menuItem'>{menuItem.item}</span>
                             <span className='menuPrice'>{menuItem.price}</span>

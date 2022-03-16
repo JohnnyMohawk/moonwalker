@@ -1,179 +1,179 @@
-@keyframes transitionIn {
-  0% {
-      opacity: 0;
-      transform: rotateX(-10deg);
-  }
+// @keyframes transitionIn {
+//   0% {
+//       opacity: 0;
+//       transform: rotateX(-10deg);
+//   }
 
-  100% {
-      opacity: 1;
-      transform: rotateX(0);
-  }
+//   100% {
+//       opacity: 1;
+//       transform: rotateX(0);
+//   }
 
-}
+// }
 
-.hero-image {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    z-index: -1;
-}
+// .hero-image {
+//     object-fit: cover;
+//     width: 100%;
+//     height: 100%;
+//     position: fixed;
+//     z-index: -1;
+// }
 
-.menu-overlay {
-  background-image: var(--background-image);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  width: 100vw;
-  color: white;
-  text-align: center;
-  border-bottom: #0c2e59 4px solid;
-  padding-bottom: 60px;
-}
+// .menu-overlay {
+//   background-image: var(--background-image);
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+//   height: 100%;
+//   width: 100vw;
+//   color: white;
+//   text-align: center;
+//   border-bottom: #0c2e59 4px solid;
+//   padding-bottom: 60px;
+// }
 
-@mixin clearfix() {
-  &:after, &:before {
-    display: table;
-    content: " ";
-    line-height: 0;
-    font-size: 0;
-    clear: both; 
-  }
-}
+// @mixin clearfix() {
+//   &:after, &:before {
+//     display: table;
+//     content: " ";
+//     line-height: 0;
+//     font-size: 0;
+//     clear: both; 
+//   }
+// }
 
-.drink-menu-container {
-  @include clearfix;
-  min-width: 50%;
-  margin: 1em;
-  border: 1px solid #0c2e59;
-  border-radius: 20px;
-  padding: 2em 1em 1em 2em;
-  -webkit-backdrop-filter: blur(6px);
-  backdrop-filter: blur(6px);
-  animation: transitionIn 1s;
-  p {
-    font-size: .9em;
-    color: #0c2e59;
-    margin-bottom: 1.5em;
-    font-style: italic;
-  }
-  span,
-  .menu-header {
-    color: #0c2e59;
-    font-family: 'Oswald', sans-serif;
-    line-height: 16px;
-  }
-}
+// .drink-menu-container {
+//   @include clearfix;
+//   min-width: 50%;
+//   margin: 1em;
+//   border: 1px solid #0c2e59;
+//   border-radius: 20px;
+//   padding: 2em 1em 1em 2em;
+//   -webkit-backdrop-filter: blur(6px);
+//   backdrop-filter: blur(6px);
+//   animation: transitionIn 1s;
+//   p {
+//     font-size: .9em;
+//     color: #0c2e59;
+//     margin-bottom: 1.5em;
+//     font-style: italic;
+//   }
+//   span,
+//   .menu-header {
+//     color: #0c2e59;
+//     font-family: 'Oswald', sans-serif;
+//     line-height: 16px;
+//   }
+// }
 
-.group-header {
-  float: right;
-  font-weight: 700;
-  width: 30%;
-  margin: 1.2em 0;
-  font-family: 'Oswald', sans-serif;
-  span {
-    float: left;
-    width: 50%;
-    text-align: center;
-    display: block;
-  }
-}
+// .group-header {
+//   float: right;
+//   font-weight: 700;
+//   width: 30%;
+//   margin: 1.2em 0;
+//   font-family: 'Oswald', sans-serif;
+//   span {
+//     float: left;
+//     width: 50%;
+//     text-align: center;
+//     display: block;
+//   }
+// }
 
-h3 {
-  @include clearfix;
-  position: relative;
-  font-weight: 700;
-  margin: .7em 0 1em 0;
-  font-family: 'Oswald', sans-serif;
-  span {
-    font-size: 20px !important;
-    float: left;
-    width: 15%;
-    text-align: center;
-    display: block;
-    &:first-child {
-      width:70%;
-      text-align: left;
-    }
-  }
-}
+// h3 {
+//   @include clearfix;
+//   position: relative;
+//   font-weight: 700;
+//   margin: .7em 0 1em 0;
+//   font-family: 'Oswald', sans-serif;
+//   span {
+//     font-size: 20px !important;
+//     float: left;
+//     width: 15%;
+//     text-align: center;
+//     display: block;
+//     &:first-child {
+//       width:70%;
+//       text-align: left;
+//     }
+//   }
+// }
 
-.brew {
-  animation: transitionIn .75s;
-  margin-top: 40px;
-  color: #0c2e59;
-  font-size: 4vmin !important;
-  text-shadow:
-  1px 1px 25px white,
-  1px 1px 25px white,
-  1px 1px 25px white,
-  1px 1px 25px white;
-}
+// .brew {
+//   animation: transitionIn .75s;
+//   margin-top: 40px;
+//   color: #0c2e59;
+//   font-size: 4vmin !important;
+//   text-shadow:
+//   1px 1px 25px white,
+//   1px 1px 25px white,
+//   1px 1px 25px white,
+//   1px 1px 25px white;
+// }
 
-.addOn {
-  width: 30%;
+// .addOn {
+//   width: 30%;
 
-}
+// }
 
-@media screen and (max-width: 980px) {
-  span {
-    line-height: 10px !important;
-  }
-}
+// @media screen and (max-width: 980px) {
+//   span {
+//     line-height: 10px !important;
+//   }
+// }
 
-@media screen and (max-width: 900px) {
-  .drink-menu-container {
-    min-width: 70%;
-  }
-}
+// @media screen and (max-width: 900px) {
+//   .drink-menu-container {
+//     min-width: 70%;
+//   }
+// }
 
-@media screen and (max-width: 800px) {
-  h3 {
+// @media screen and (max-width: 800px) {
+//   h3 {
 
-    span {
-        font-size: 18px !important;
-        &:first-child {
-          font-size: 20px !important;
-        }
-    }
-  }
-}
+//     span {
+//         font-size: 18px !important;
+//         &:first-child {
+//           font-size: 20px !important;
+//         }
+//     }
+//   }
+// }
 
-@media screen and (max-width: 600px) {
-  .drink-menu-container {
-    min-width: 90%;
-  }
+// @media screen and (max-width: 600px) {
+//   .drink-menu-container {
+//     min-width: 90%;
+//   }
 
-  h3 {
+//   h3 {
 
-    span {
-        line-height: 2px !important;
-        font-size: 14px !important;
-        &:first-child {
-          font-size: 16px !important;
-        }
-    }
-  }
+//     span {
+//         line-height: 2px !important;
+//         font-size: 14px !important;
+//         &:first-child {
+//           font-size: 16px !important;
+//         }
+//     }
+//   }
 
-}
+// }
 
-@media screen and (max-width: 400px) {
+// @media screen and (max-width: 400px) {
 
-  .group-header {
-    width: 40%;
-  }
+//   .group-header {
+//     width: 40%;
+//   }
 
-  h3 {
+//   h3 {
 
-    span {
-        width: 20%;
-        &:first-child {
-          width: 60%;
-        }
-    }
-  }
-}
+//     span {
+//         width: 20%;
+//         &:first-child {
+//           width: 60%;
+//         }
+//     }
+//   }
+// }
 
 

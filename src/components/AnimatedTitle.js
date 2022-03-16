@@ -7,7 +7,7 @@ export default function AnimatedTitle(props) {
             <div class="animated-title">
                 <div class="text-top">
                     <div>
-                        <span>{props.title}</span>
+                        <span className='top-animation1'>{props.title}</span>
                         <span className='top-animation'>{props.subTitle}</span>
                     </div>
                 </div>

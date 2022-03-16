@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --background-image: linear-gradient(120deg, rgba(255, 255, 255, .7),rgba(255, 255, 255, 0.975));
     --background-overlay: rgba(0,0,0,0.4);
   }
@@ -18,7 +18,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 75vh;
+    height: 100%;
     width: 100vw;
     color: white;
     text-align: center;
@@ -28,7 +28,6 @@
 
 
 .hero-container {
-    height: 75vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -100,4 +99,4 @@
     .btn {
         width: 100%;
     }
-}
+} */
