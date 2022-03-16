@@ -1,22 +1,24 @@
-import './Menu.scss'
+import './Menu.css'
 
 function Menu(props) {
 
     return (
 
-        <div className='menu-overlay'>
-            <div class="menu-container">    
-                <h1 className='menu-header'>{props.menuTitle}</h1>
-                <h3 className='menu-details'>{props.menuInfo}</h3>
+        <div className='food-menu-overlay'>
+            <div class="food-menu-container">    
+                <h1 className='food-menu-header'>{props.menuTitle}</h1>
+                <h3 className='food-menu-details'>{props.menuInfo}</h3>
 
                 {props.menuData.map((menuItem) => {
                     return (
-                    <div className='itemNprice'>
-                        <h3>
-                            <span className='menuItem'>{menuItem.item}</span>
-                            <span className='menuPrice'>{menuItem.price}</span>
-                        </h3>
-                        <p>{menuItem.description}</p>
+                    <div className='menu-content-wrap'>
+                        <div className='item-price-wrap'>
+
+                                <h3 className='menu-item'>{menuItem.item}</h3>
+                                <h3 className='menu-price'>{menuItem.price}</h3>
+
+                        </div>
+                        <p className='menu-description'>{menuItem.description}</p>
                     </div>
                     )
                 })}

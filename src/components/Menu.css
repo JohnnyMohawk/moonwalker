@@ -1,0 +1,140 @@
+@keyframes transitionIn {
+    0% {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    100% {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+
+}
+
+.food-menu-overlay {
+    background-image: var(--background-image);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100vw;
+    color: white;
+    text-align: center;
+    border-bottom: #0c2e59 4px solid;
+
+}
+
+.food-menu-container {
+    color: #0c2e59;
+    font-family: 'Oswald', sans-serif;
+    width: 65%;
+    margin: 1em;
+    border: 1px solid #0c2e59;
+    border-radius: 20px;
+    padding: 3em;
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    animation: transitionIn 1s;
+}
+
+.food-menu-header {
+    color: #0c2e59;
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+}
+
+.food-menu-details {
+    color: #0c2e59;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.9vmax;
+    height: 10px;
+}
+
+.item-price-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -10px;
+    height: 80px;
+}
+
+.menu-item,
+.menu-price {
+    font-size: 4vmin
+}
+
+.menu-description {
+    text-align: left;
+    line-height: 3vmin;
+    font-size: 3vmin;
+    font-style: italic;
+    /* font-family: 'EB Garamond', serif; */
+}
+
+@media screen and (max-width: 800px) {
+    .food-menu-container {
+        width: 75%;
+    }
+
+    .item-price-wrap {
+        height: 65px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .food-menu-container {
+        width: 85%;
+    }
+
+    .item-price-wrap {
+        /* margin-bottom: -10px; */
+        height: 55px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .food-menu-container {
+        width: 100%;
+        margin: 0px;
+        padding: 1em 1.75em;
+    }
+
+    .item-price-wrap {
+        height: 45px;
+    }
+
+
+    .food-menu-container {
+        border-radius: 0px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .food-menu-details {
+        font-size: 3.5vmin !important;
+        margin-bottom: 20px;
+    }
+
+    .item-price-wrap {
+        height: 35px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+
+    .food-menu-details {
+    }
+
+    .item-price-wrap {
+        height: 30px;
+    }
+
+    .menu-description {
+        font-size: 12px !important;
+        margin-bottom: 5px !important;
+        line-height: 12px;
+    }
+
+}
