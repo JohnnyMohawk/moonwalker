@@ -28,9 +28,11 @@ function Home () {
             {/* <Background /> */}
 
             <HeroSection />
-            <Quote />
+            <Quote 
+                quote="Moonwalker Cafe is the scratch kitchen every neighborhood deserves. - Chicago Reader " 
+            />
             <Cards />
-            <Menu 
+            {/* <Menu 
                 menuTitle="Food" 
                 menuInfo="All sandwiches served with chips or fries. Menu subject to change."  
                 menuData={MenuData} 
@@ -38,7 +40,7 @@ function Home () {
 
             <DrinkMenu drinkType="Coffee" menuData={drinkData} />
 
-            <AddOns menuData={drinkData} />
+            <AddOns menuData={drinkData} /> */}
 
         </>
     )
