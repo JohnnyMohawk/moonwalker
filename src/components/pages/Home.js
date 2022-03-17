@@ -1,5 +1,4 @@
 import React, {useEffect} from 'react'
-// import '../../App.css'
 import HeroSection from '../HeroSection'
 import Quote from '../Quote'
 import Cards from '../Cards.js'

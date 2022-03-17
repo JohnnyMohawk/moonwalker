@@ -1,7 +1,6 @@
 import React, {useEffect} from 'react';
 import Menu from '../Menu';
 import { MenuData } from '../../Data/menu-data';
-// import '../../components/Menu.css'
 import Background from '../Background';
 
 function Food() {
@@ -14,7 +13,12 @@ function Food() {
 
         <>
             <Background />
-            <Menu tagLine="Scratch Kitchen | Local Ingredients" menuTitle="Food" menuInfo="All sandwiches served with chips or fries. Menu subject to change." menuData={MenuData} />
+            <Menu 
+                tagLine="Scratch Kitchen | Local Ingredients" 
+                menuTitle="Food" 
+                menuInfo="All sandwiches served with chips or fries. Menu subject to change." 
+                menuData={MenuData} 
+            />
         </>
 
     )
