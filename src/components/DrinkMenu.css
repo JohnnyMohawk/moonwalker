@@ -25,6 +25,19 @@
 
 }
 
+.tag-line {
+    margin-top: 40px;
+    color: #0c2e59;
+    font-family: 'Oswald', sans-serif;
+    font-size: 4vmin !important;
+    text-shadow:
+    1px 1px 25px white,
+    1px 1px 25px white,
+    1px 1px 25px white,
+    1px 1px 25px white;
+    animation: transitionIn 1s;
+}
+
 .drink-menu-container {
     color: #0c2e59;
     font-family: 'Oswald', sans-serif;

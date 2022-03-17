@@ -5,6 +5,7 @@ function Menu(props) {
     return (
 
         <div className='food-menu-overlay'>
+            <h3 className='tag-line'>{props.tagLine}</h3>
             <div class="food-menu-container">    
                 <h1 className='food-menu-header'>{props.menuTitle}</h1>
                 <h3 className='food-menu-details'>{props.menuInfo}</h3>

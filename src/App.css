@@ -2,10 +2,13 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* font-family: 'PT Sans', sans-serif; */
 }
 
-.home,
+:root {
+  --background-image: linear-gradient(90deg, rgba(255, 255, 255, .7),rgba(255, 255, 255, 0.975));
+}
+
+/* .home,
 .services,
 .products,
 .sign-up, 
@@ -18,7 +21,6 @@
 }
 
 .services {
-  /* background-image: url('/images/img-2.jpg'); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -27,7 +29,6 @@
 }
 
 .about {
-  /* background-image: url('background-images/chakras.jpeg'); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -36,7 +37,6 @@
 }
 
 .spiritual {
-  /* background-image: url('/images/img-1.jpg'); */
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -45,7 +45,6 @@
 }
 
 .recipes {
-  /* background-image: url('/images/img-1.jpg'); */
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -54,7 +53,6 @@
 }
 
 .beauty {
-  /* background-image: url('/images/img-1.jpg'); */
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -63,7 +61,6 @@
 }
 
 .contact {
-  /* background-image: url('/images/img-1.jpg'); */
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -72,10 +69,9 @@
 }
 
 .sign-up {
-  /* background-image: url('/images/img-8.jpg'); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
-}
+} */

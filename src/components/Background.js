@@ -7,10 +7,10 @@ import './Background.css'
 
 function Background() {
     return (
-        <div className="hero-container">
-            <div className="overlay">
-                <img src='/images/med-tile.jpeg' alt='moonwalker counter' className='hero-image' />
-            </div>
+        <div className="hero-bg-container">
+            {/* <div className="overlay"> */}
+                <img src='/images/med-tile.jpeg' alt='moonwalker cafe tile' className='hero-bg-image' />
+            {/* </div> */}
         </div>
     )
 }

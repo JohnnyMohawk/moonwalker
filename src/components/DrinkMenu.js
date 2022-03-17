@@ -6,7 +6,7 @@ function DrinkMenu(props) {
     return (
         <div className="drink-menu-overlay">
 
-
+            <h3 className='tag-line'>{props.tagLine}</h3>
             <div class="drink-menu-container">
                 <h1 className='drink-menu-header'>Coffee</h1>
                 <div class="drink-sizes">
