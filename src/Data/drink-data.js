@@ -90,7 +90,7 @@ export const drinkData = {
             price: "¢.50"
         },
         {
-            item: "Extra Shot",
+            item: "Non-Dairy Milk",
             price: "¢.75"
         },
         
