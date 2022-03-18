@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap'); */
 @keyframes showTopText {
   0% { transform: translate3d(0, 100%, 0); }
   40%, 60% { transform: translate3d(0, 50%, 0); }
@@ -11,7 +11,7 @@
 }
 
 .aniTitleWrap {
-    margin-bottom: 7vmin;
+  margin-bottom: 7vmin;
 }
 
 .animated-title {
@@ -74,21 +74,21 @@
 }
 
 .top-animation {
-    text-align: left;
-    font-size: 12vmin;
-    line-height: 10vmin;
-    color: #0c2e59;
+  text-align: left;
+  font-size: 12vmin;
+  line-height: 10vmin;
+  color: #0c2e59;
 }
 
 .location {
-    display: flex;
-    flex-direction: row;
-    font-family: 'EB Garamond', serif !important;
+  display: flex;
+  flex-direction: row;
+  font-family: 'EB Garamond', serif !important;
 }
 
 @media screen and (max-width: 600px) {
-    .animated-title {
-        margin-top: -100px;
-        transition: all 0.2s ease-out
-    }
+  .animated-title {
+    margin-top: -100px;
+    transition: all 0.2s ease-out
+  }
 }

@@ -3,12 +3,12 @@
         opacity: 0;
         transform: rotateX(-10deg);
     }
-  
+
     50% {
-      opacity: 0;
-      transform: rotateX(-10deg);
+        opacity: 0;
+        transform: rotateX(-10deg);
     }
-  
+
     100% {
         opacity: 1;
         transform: rotateX(0);
