@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react'
-import Background from '../Background'
-import LogoCards from '../LogoCards'
-import { friendsData } from '../../Data/friends-data'
+import Background from '../components/Background'
+import LogoCards from '../components/LogoCards'
+import { friendsData } from '../Data/friends-data'
 
 
 function Friends () {

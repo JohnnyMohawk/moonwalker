@@ -1,13 +1,13 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
-import Home from './components/pages/Home';
-import Drinks from './components/pages/Drinks';
-import Food from './components/pages/Food';
-import About from './components/pages/About';
-import Friends from './components/pages/Friends';
-import Press from './components/pages/Press';
-import Specials from './components/pages/Specials';
+import Home from './pages/Home';
+import Drinks from './pages/Drinks';
+import Food from './pages/Food';
+import About from './pages/About';
+import Friends from './pages/Friends';
+import Press from './pages/Press';
+import Specials from './pages/Specials';
 import Footer from './components/Footer';
 
 

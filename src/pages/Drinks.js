@@ -1,8 +1,8 @@
 import React, {useEffect} from 'react';
-import Background from '../Background';
-import DrinkMenu from '../DrinkMenu';
-import { drinkData } from '../../Data/drink-data';
-import AddOns from '../AddOns';
+import Background from '../components/Background';
+import DrinkMenu from '../components/DrinkMenu';
+import { drinkData } from '../Data/drink-data';
+import AddOns from '../components/AddOns';
 
 
 function Drinks() {

@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
-import LogoCards from '../LogoCards';
-import { pressData } from '../../Data/press-data';
-import Background from '../Background';
+import LogoCards from '../components/LogoCards';
+import { pressData } from '../Data/press-data';
+import Background from '../components/Background';
 
 
 const Press = () => {

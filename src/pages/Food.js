@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
-import Menu from '../Menu';
-import { MenuData } from '../../Data/menu-data';
-import Background from '../Background';
+import Menu from '../components/Menu';
+import { MenuData } from '../Data/menu-data';
+import Background from '../components/Background';
 
 
 function Food() {

@@ -1,8 +1,8 @@
 import React, {useEffect} from 'react'
-import HeroSection from '../HeroSection'
-import Quote from '../Quote'
-import Cards from '../Cards.js'
-import Background from '../Background'
+import HeroSection from '../components/HeroSection'
+import Quote from '../components/Quote'
+import Cards from '../components/Cards.js'
+import Background from '../components/Background'
 
 
 function Home () {

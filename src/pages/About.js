@@ -1,8 +1,8 @@
 import React, {useEffect} from 'react';
-import Background from '../Background'
-import LoveText from '../LoveText'
-import TextPage from '../TextPage'
-import { aboutText } from '../../Data/about-data'
+import Background from '../components/Background'
+import LoveText from '../components/LoveText'
+import TextPage from '../components/TextPage'
+import { aboutText } from '../Data/about-data'
 
 
 function About() {
