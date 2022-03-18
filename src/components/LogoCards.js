@@ -5,6 +5,7 @@ import '../components/LogoCards.css'
 
 function LogoCards() {
     return (
+            <div className='overlay'>
                 <div className="logo-cards__wrapper">
                     <h1 className='friendsHeader'>Proudly Serving</h1>
                     <div className="logo-row">
@@ -32,6 +33,7 @@ function LogoCards() {
                         </a> */}
                     </div>
                 </div>
+            </div>
     )
 }
 

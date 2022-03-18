@@ -26,7 +26,8 @@
 }
 
 .tag-line {
-    margin-top: 40px;
+    margin-top: 1.25em;
+    margin-bottom: .5em;
     color: #0c2e59;
     font-family: 'Oswald', sans-serif;
     font-size: 4vmin !important;

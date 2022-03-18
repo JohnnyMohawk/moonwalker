@@ -1,0 +1,22 @@
+  .love-text-header {
+    color: #0c2e59;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: -75px;
+    margin-left: 10px;
+  }
+
+  .storyWrap {
+    margin-left: -100px;
+}
+
+.loveTextWrap {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.heartimation {
+  margin: 0 auto;
+
+}

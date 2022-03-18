@@ -5,11 +5,9 @@ import { drinkData } from '../../Data/drink-data';
 import AddOns from '../AddOns';
 
 function Drinks() {
-
     useEffect(() => {
         window.scrollTo(0, 0)
     })
-
     return (
         <>
             <Background />
@@ -18,7 +16,6 @@ function Drinks() {
                 menuData={drinkData} 
             />
             <AddOns menuData={drinkData} />
-        
         </>
     )
 }

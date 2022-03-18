@@ -14,29 +14,8 @@
   * {
       max-width: 100vw
   }
-  
-  .hero-image {
-      object-fit: cover;
-      width: 100vw;
-      height: 100%;
-      position: fixed;
-      z-index: -1;
-  }
-  
-  .about-overlay {
-    background-image: var(--background-image);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    width: 100vw;
-    color: white;
-    text-align: center;
-    border-bottom: #0c2e59 4px solid;
-  }
-  
-  .about-container {
+
+  .text-container {
     width: 75vw !important;
     margin: 5em 1em;
     border: 1px solid #0c2e59;
@@ -47,14 +26,27 @@
     animation: transitionIn 1s;
   }
 
-  .about-header {
-    color: #0c2e59;
-    font-family: 'Oswald', sans-serif;
-    margin-bottom: -75px;
-    margin-left: 10px;
+  .text-overlay {
+    background-image: var(--background-image);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    border-bottom: #0c2e59 4px solid;
   }
 
-  .about-us {
+  .headCompWrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pageText {
       font-style: normal !important;
       color: #0c2e59;
       font-family: 'EB Garamond', serif !important;
@@ -66,17 +58,10 @@
     margin-left: 1vw;
   }
 
-  .storyWrap {
-      margin-left: -10px;
-  }
 
-  .heartimation {
-      margin: 0 auto;
-
-  }
   
   @media screen and (max-width: 600px) {
-    .about-container {
+    .text-container {
       min-width: 90%;
       margin-bottom: 2em;
       margin-top: 2em;

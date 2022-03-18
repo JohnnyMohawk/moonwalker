@@ -20,43 +20,27 @@ function Footer() {
                     </form>
                 </div>
             </section>
-            {/* <div className="footer-links">
-                <div className="footer-link-wrapper">
-                    <div className="footer-link-items">
-                        <h2>About RG</h2>
-                        <Link to="/services">Why RG</Link>
-                        <Link to="/">Testimonials</Link>
+            <section className="social-media">
+                <div className="social-media-wrap">
+                    <div className="footer-logo">
+                        <Link to="/" className="social-logo">
+                            Moonwalker Cafe
+                        </Link>
+                    </div>
+                    <small className="website-rights">Moonwalker Cafe © {new Date().getFullYear()}</small>
+                    <div className="social-icons">
+                        <a className="social-icon-link instagram" href="https://www.instagram.com/moonwalkercafe/" target="_blank" rel="noopennernoreferrer">
+                            <i className="fab fa-instagram" />
+                        </a>
+                        <a className="social-icon-link facebook" href="https://www.facebook.com/moonwalkercafe/" target="_blank" rel="noopennernoreferrer">
+                            <i className="fab fa-facebook" />
+                        </a>
+                        <a className="social-icon-link twitter" href="https://twitter.com" target="_blank" rel="noopennernoreferrer">
+                            <i className="fab fa-twitter" />
+                        </a>
                     </div>
                 </div>
-                <div className="footer-link-wrapper">
-                    <div className="footer-link-items">
-                        <h2>How it Works</h2>
-                        <Link to="/services">Our Services</Link>
-                        <Link to="/">Privacy Policy</Link>
-                    </div>
-                </div>
-            </div> */}
-        <section className="social-media">
-            <div className="social-media-wrap">
-                <div className="footer-logo">
-                    <Link to="/" className="social-logo">
-                        Moonwalker Cafe
-                    </Link>
-                </div>
-                <small className="website-rights">Moonwalker Cafe © {new Date().getFullYear()}</small>
-                <div className="social-icons">
-                    <a className="social-icon-link instagram" href="https://www.instagram.com/moonwalkercafe/" target="_blank" rel="noopennernoreferrer">
-                        <i className="fab fa-instagram" />
-                    </a>
-                    <a className="social-icon-link facebook" href="https://www.facebook.com/moonwalkercafe/" target="_blank" rel="noopennernoreferrer">
-                        <i className="fab fa-facebook" />
-                    </a>
-                    <a className="social-icon-link twitter" href="https://twitter.com" target="_blank" rel="noopennernoreferrer">
-                        <i className="fab fa-twitter" />
-                    </a>
-                </div>
-            </div>
-        </section>
+            </section>
         </div>
     )
 }

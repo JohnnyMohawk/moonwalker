@@ -8,11 +8,9 @@ import './Background.css'
 function Background() {
     return (
         <div className="hero-bg-container">
-            {/* <div className="overlay"> */}
-                <img src='/images/med-tile.jpeg' alt='moonwalker cafe tile' className='hero-bg-image' />
-            {/* </div> */}
+            <img src='/images/med-tile.jpeg' alt='moonwalker cafe tile' className='hero-bg-image' />
         </div>
-    )
+)
 }
 
 export default Background

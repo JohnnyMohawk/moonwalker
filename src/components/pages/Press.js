@@ -1,7 +1,4 @@
 import React, {useEffect} from 'react';
-import ImageSlider from "../ImageSlider"
-import { SliderData } from "../SliderData"
-// import App from '../../App';
 import "../pages/Press.css"
 
 const Press = () => {

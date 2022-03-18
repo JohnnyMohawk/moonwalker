@@ -3,14 +3,12 @@ import Menu from '../Menu';
 import { MenuData } from '../../Data/menu-data';
 import Background from '../Background';
 
-function Food() {
 
+function Food() {
     useEffect(() => {
         window.scrollTo(0, 0)
     })
-
     return (
-
         <>
             <Background />
             <Menu 
@@ -20,7 +18,6 @@ function Food() {
                 menuData={MenuData} 
             />
         </>
-
     )
 }
 

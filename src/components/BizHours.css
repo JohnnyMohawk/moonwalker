@@ -16,6 +16,14 @@
 
 }
 
+.hoursTableWrap {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 .hoursTable {
     animation: transitionIn 4s;
     margin-top: 30vmin;

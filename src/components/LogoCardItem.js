@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 function LogoCardItem(props) {
     return (
-        <div>
+        <div className='overlay'>
             <li className="logo-cards__item">
 
                     <figure className="logo-cards__item__text">
