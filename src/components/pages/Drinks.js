@@ -4,6 +4,7 @@ import DrinkMenu from '../DrinkMenu';
 import { drinkData } from '../../Data/drink-data';
 import AddOns from '../AddOns';
 
+
 function Drinks() {
     useEffect(() => {
         window.scrollTo(0, 0)

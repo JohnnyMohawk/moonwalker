@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react'
 import Background from '../Background'
 import LogoCards from '../LogoCards'
+import { friendsData } from '../../Data/friends-data'
 
 
 function Friends () {
@@ -10,7 +11,7 @@ function Friends () {
     return (
         <>
             <Background />
-            <LogoCards />
+            <LogoCards header="Proudly Serving" logoLinkData={friendsData} />
         </>
     )
 }

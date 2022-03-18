@@ -1,6 +1,4 @@
 import React from 'react'
-// import heartLottie from '../../animations/heartLottie.json'
-// import Lottie from 'react-lottie-player'
 import './TextPage.css'
 
 

@@ -6,13 +6,10 @@ import { aboutText } from '../../Data/about-data'
 
 
 function About() {
-
     useEffect(() => {
         window.scrollTo(0, 0)
     })
-
     return (
-
         <>
             <Background />
             <TextPage text={aboutText} headerComponent={<LoveText/>} />
