@@ -29,13 +29,13 @@ function Footer() {
                     </div>
                     <small className="website-rights">Moonwalker Cafe © {new Date().getFullYear()}</small>
                     <div className="social-icons">
-                        <a className="social-icon-link instagram" href="https://www.instagram.com/moonwalkercafe/" target="_blank" rel="noopennernoreferrer">
+                        <a className="social-icon-link instagram" href="https://www.instagram.com/moonwalkercafe/" target="_blank" rel="noopenner noreferrer">
                             <i className="fab fa-instagram" />
                         </a>
-                        <a className="social-icon-link facebook" href="https://www.facebook.com/moonwalkercafe/" target="_blank" rel="noopennernoreferrer">
+                        <a className="social-icon-link facebook" href="https://www.facebook.com/moonwalkercafe/" target="_blank" rel="noopenner noreferrer">
                             <i className="fab fa-facebook" />
                         </a>
-                        <a className="social-icon-link twitter" href="https://twitter.com" target="_blank" rel="noopennernoreferrer">
+                        <a className="social-icon-link twitter" href="https://twitter.com" target="_blank" rel="noopenner noreferrer">
                             <i className="fab fa-twitter" />
                         </a>
                     </div>

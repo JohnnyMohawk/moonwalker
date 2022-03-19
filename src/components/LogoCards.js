@@ -11,7 +11,7 @@ function LogoCards(props) {
                     {props.logoLinkData.map((friend) => {
                         return (
                             <div className="logo-row">
-                                <a className="logo-cards__items" href={friend.link} target="_blank" rel="noopennernoreferrer">
+                                <a className="logo-cards__items" href={friend.link} target="_blank" rel="noopenner noreferrer">
                                     <img src={friend.logo} alt={friend.altText} className='logo-cards__img' />
                                 </a>
                             </div>
