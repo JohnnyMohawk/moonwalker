@@ -66,7 +66,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: end;
-  margin-top: -10px;
+  /* margin-top: -10px; */
   height: 50px;
 }
 
@@ -142,6 +142,7 @@
 
   .item-price-wrap {
     height: 30px;
+    margin-bottom: -.4em !important;
   }
 
   .menu-description {
