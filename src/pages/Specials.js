@@ -1,4 +1,6 @@
 import React, {useEffect} from 'react';
+import Background from '../components/Background';
+import ComingSoon from '../components/ComingSoon';
 
 
 function Specials() {
@@ -7,7 +9,8 @@ function Specials() {
     })
     return (
         <>
-        
+            <Background />
+            <ComingSoon />
         </>
     )
 }

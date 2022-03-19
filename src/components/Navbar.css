@@ -236,3 +236,9 @@
         font-size: 1.6rem;
     }
 }
+
+@media screen and (max-width: 350px) {
+    .navbar-logo {
+        font-size: 7vmin;
+    }
+}

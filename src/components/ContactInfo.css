@@ -59,3 +59,10 @@
         line-height: 46px;
     }
 }
+
+@media screen and (max-width: 350px) {
+    .heroLinks {
+        font-size: 7vmin;
+        line-height: 2em;
+    }
+}
