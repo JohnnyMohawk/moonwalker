@@ -76,6 +76,7 @@
 
 .menu-item {
     font-size: 4vmin;
+    margin-top: 1.2em !important;
 }
 
 .menu-price {
@@ -116,7 +117,7 @@
 @media screen and (max-width: 550px) {
     .food-menu-container {
         width: 100%;
-        margin: 0px;
+        margin: 0;
         padding: 1em 1.75em;
     }
 
@@ -130,15 +131,15 @@
     }
 
     .menu-description {
-        margin-bottom: 5px;
+        margin-bottom: 10px;
     }
 }
 
 @media screen and (max-width: 450px) {
 
     .food-menu-details {
-        font-size: 3.5vmin !important;
-        margin-bottom: 1vmin;
+        font-size: 3.3vmin !important;
+        margin-bottom: 2vmin;
     }
 
     .item-price-wrap {
