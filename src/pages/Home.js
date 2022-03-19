@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react'
 import HeroSection from '../components/HeroSection'
-import Quote from '../components/Quote'
+// import Quote from '../components/Quote'
 import Cards from '../components/Cards.js'
 import Background from '../components/Background'
 
