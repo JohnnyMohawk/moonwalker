@@ -4,10 +4,10 @@
         transform: rotateX(-10deg);
     }
 
-    50% {
+    /* 50% {
         opacity: 0;
         transform: rotateX(-10deg);
-    }
+    } */
 
     100% {
         opacity: 1;
@@ -25,6 +25,7 @@
 }
 
 .hoursTable {
+    animation: transitionIn 1s;
     /* animation: transitionIn 4s; */
     margin-top: 30vmin;
     margin-bottom: 10px;

@@ -14,6 +14,7 @@
 }
 
 .heroLinks {
+    animation: transitionIn 1s;
     /* animation: transitionIn 4.5s; */
     text-decoration: none;
     color: #0c2e59;
@@ -41,10 +42,10 @@
         transform: rotateX(-10deg);
     }
 
-    50% {
+    /* 50% {
         opacity: 0;
         transform: rotateX(-10deg);
-    }
+    } */
 
     100% {
         opacity: 1;
