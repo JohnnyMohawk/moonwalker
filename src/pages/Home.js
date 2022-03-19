@@ -13,9 +13,9 @@ function Home () {
         <>
             <Background />
             <HeroSection />
-            <Quote 
+            {/* <Quote 
                 quote="Moonwalker Cafe is the scratch kitchen every neighborhood deserves. - Chicago Reader " 
-            />
+            /> */}
             <Cards />
         </>
     )

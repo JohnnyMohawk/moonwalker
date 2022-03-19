@@ -14,7 +14,7 @@
 }
 
 .heroLinks {
-    animation: transitionIn 4.5s;
+    /* animation: transitionIn 4.5s; */
     text-decoration: none;
     color: #0c2e59;
     font-size: 4vmin;
