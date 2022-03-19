@@ -9,7 +9,7 @@ import ContactInfo from './ContactInfo'
 function HeroSection() {
     return (
         <div className="hero-container">
-            <div className="hero-overlay">
+            <div className="overlay">
                 <div className='home-fade'>
                     <AnimatedTitle title="Moonwalker" subTitle="Cafe" city="Chicago" hood="Avondale" />
                     <BizHours mon="Closed" tues="7 AM to 4 PM" weds="7 AM to 4 PM" thurs="7 AM to 4 PM" fri="7 AM to 4 PM" sat="8 AM to 4 PM" sun="8 AM to 2 PM" />
