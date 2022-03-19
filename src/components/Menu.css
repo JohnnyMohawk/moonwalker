@@ -21,7 +21,7 @@
     width: 100vw;
     color: white;
     text-align: center;
-    border-bottom: #0c2e59 4px solid;
+    /* border-bottom: #0c2e59 4px solid; */
 
 }
 
@@ -43,7 +43,7 @@
     color: #0c2e59;
     font-family: 'Oswald', sans-serif;
     width: 65%;
-    margin: 1em;
+    margin: 2em 1em;
     border: 1px solid #0c2e59;
     border-radius: 20px;
     padding: 1.5em 3em;
@@ -88,6 +88,7 @@
     line-height: 3.1vmin;
     font-size: 3vmin;
     font-style: italic;
+    /* margin-bottom: -.5em; */
     /* font-family: 'EB Garamond', serif; */
 }
 
