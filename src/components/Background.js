@@ -7,9 +7,11 @@ import './Background.css'
 
 function Background() {
     return (
+        // <div className0='bg-overlay'>
         <div className="hero-bg-container">
             <img src='/images/med-tile.jpeg' alt='moonwalker cafe tile' className='hero-bg-image' />
         </div>
+        // </div>
 )
 }
 

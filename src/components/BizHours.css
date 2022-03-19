@@ -25,7 +25,7 @@
 }
 
 .hoursTable {
-    animation: transitionIn 4s;
+    /* animation: transitionIn 4s; */
     margin-top: 30vmin;
     margin-bottom: 10px;
     margin-left: -5vmin;
