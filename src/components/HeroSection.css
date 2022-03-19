@@ -22,7 +22,7 @@
     z-index: -1;
 }
 
-.overlay {
+.hero-overlay {
     background-image: var(--background-image);
     display: flex;
     flex-direction: column;
@@ -106,5 +106,12 @@
 
     .btn {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .hero-container,
+    .hero-overlay {
+        height: 580px;
     }
 }

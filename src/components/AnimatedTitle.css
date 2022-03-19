@@ -92,3 +92,11 @@
     transition: all 0.2s ease-out
   }
 }
+
+@media screen and (max-width: 500px) {
+  .animated-title {
+    margin-top: -21vh;
+    /* margin-top: -230px; */
+    transition: all 0.2s ease-out
+  }
+}
