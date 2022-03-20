@@ -42,7 +42,7 @@
     color: #0c2e59;
     font-family: 'Oswald', sans-serif;
     width: 650px;
-    margin: 1em;
+    margin: 0 1em 2em 1em;
     border: 1px solid #0c2e59;
     border-radius: 20px;
     padding: 1.5em 3em;
@@ -74,10 +74,10 @@
 .drink-sizes {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end !important;
+    justify-content: end !important;
     margin-bottom: .5vmin;
     font-size: 2.5vmin !important;
-    /* width: 12%; */
+    width: 100%;
 }
 
 .drink-size-sm {
@@ -100,7 +100,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: -3vmin;
+    margin-bottom: -2vmin;
 }
 
 .drink-item-price-wrap {
