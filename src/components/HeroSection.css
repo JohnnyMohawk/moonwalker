@@ -113,5 +113,6 @@
     .overlay,
     .hero-container {
         height: 65vh !important;
+        margin-top: 22px;
     }
 }
