@@ -51,9 +51,22 @@ th {
 
 @media screen and (max-width: 500px) {
     .hoursTable {
-        margin-top: 190px;
+        margin-top: 180px;
         transition: all 0.2s ease-out;
         animation: transitionIn 0s;
     }
 }
 
+@media screen and (max-width: 450px) {
+    .hoursTable {
+        margin-top: 195px;
+        font-size: 20px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .hoursTable {
+        margin-top: 145px;
+    }
+}
