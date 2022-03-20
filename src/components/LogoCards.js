@@ -5,7 +5,7 @@ import '../components/LogoCards.css'
 function LogoCards(props) {
     return (
         <>
-            <div className='overlay'>
+            <div className='logo-card-overlay'>
                 <h1 className='logo-card-header'>{props.header}</h1>
                 <div className="logo-cards__wrapper">
                     {props.logoLinkData.map((friend) => {

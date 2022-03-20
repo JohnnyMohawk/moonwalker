@@ -12,7 +12,7 @@
 }
 
 
-.overlay {
+.logo-card-overlay {
     background-image: var(--background-image);
     display: flex;
     flex-direction: column;
