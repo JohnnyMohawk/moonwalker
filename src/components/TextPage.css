@@ -72,3 +72,9 @@
         margin-top: -6vmax;
     }
 }
+
+@media screen and (max-width: 450px) {
+    .text-container {
+        animation: transitionIn 0s;
+    }
+}

@@ -224,6 +224,12 @@
         justify-content: start !important;
         margin-left: 50vw !important;
     }
+
+    .drink-add-on-container,
+    .drink-menu-container,
+    .tag-line {
+        animation: transitionIn 0s;
+    }
 }
 
 @media screen and (max-width: 370px) {

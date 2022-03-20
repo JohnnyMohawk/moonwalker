@@ -152,7 +152,15 @@
     margin-top: 0;
     line-height: 12px;
   }
+
+  .tag-line,
+  .food-menu-container {
+    animation: transitionIn 0s;
+  }
+
 }
+
+
 /* 
 @media screen and (max-width: 370px) {
 
