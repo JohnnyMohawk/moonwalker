@@ -215,6 +215,10 @@
     .drink-add-on-price-wrap {
         height: 35px;
     }
+
+    .drink-sizes {
+        margin-left: 1vw !important;
+    }
 }
 
 @media screen and (max-width: 370px) {
