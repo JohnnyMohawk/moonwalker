@@ -95,14 +95,21 @@
 
 @media screen and (max-width: 450px) {
   .animated-title {
-    margin-top: -140px;
+    margin-top: -130px;
     transition: all 0.2s ease-out
   }
 }
 
 @media screen and (max-width: 400px) {
   .animated-title {
-    margin-top: -145px;
-    transition: all 0.2s ease-out
+    margin-top: -120px;
+    transition: all 0.2s ease-out;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .animated-title {
+    margin-top: -140px;
+    transition: all 0.2s ease-out;
   }
 }
