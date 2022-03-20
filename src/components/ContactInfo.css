@@ -60,10 +60,32 @@
         line-height: 35px;
         animation: transitionIn 0s;
     }
+
+    .heroLinks:hover {
+        font-size: 20px;
+        line-height: 35px;
+        animation: transitionIn 0s;
+    }
+
+    .heroLinks:active {
+        font-size: 20px;
+        line-height: 35px;
+        animation: transitionIn 0s;
+    }
 }
 
 @media screen and (max-width: 350px) {
     .heroLinks {
+        font-size: 7vmin;
+        line-height: 2em;
+    }
+
+    .heroLinks:hover {
+        font-size: 7vmin;
+        line-height: 2em;
+    }
+
+    .heroLinks:active {
         font-size: 7vmin;
         line-height: 2em;
     }
