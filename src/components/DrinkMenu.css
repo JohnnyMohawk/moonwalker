@@ -77,22 +77,22 @@
     justify-content: end !important;
     margin-bottom: .5vmin;
     font-size: 2.5vmin !important;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .drink-size-sm {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width:10%;
-    margin-right: 4vmin;
+    /* width:15%; */
+    margin-right: 8vmin;
 }
 
 .drink-size-lg {
     display: flex;
     flex-direction: row;
     justify-content: end;
-    width: 10%;
+    /* width: 15%; */
     margin-right: -10px;
 }
 
@@ -161,6 +161,10 @@
         height: 65px;
     }
 
+    .drink-size-sm {
+        margin-right: 6.5vmin;
+    }
+
 }
 
 @media screen and (max-width: 700px) {
@@ -217,7 +221,8 @@
     }
 
     .drink-sizes {
-        margin-left: 40vw !important;
+        justify-content: start !important;
+        margin-left: 50vw !important;
     }
 }
 
