@@ -74,7 +74,7 @@
 .drink-sizes {
     display: flex;
     flex-direction: row;
-    justify-content: end;
+    justify-content: flex-end !important;
     margin-bottom: .5vmin;
     font-size: 2.5vmin !important;
     /* width: 12%; */
