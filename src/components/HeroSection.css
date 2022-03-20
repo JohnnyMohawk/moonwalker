@@ -112,7 +112,7 @@
 @media screen and (max-width: 450px) {
     .overlay,
     .hero-container {
-        height: 65vh !important;
-        margin-top: 22px;
+        height: 60vh !important;
+        margin-top: 32px;
     }
 }
