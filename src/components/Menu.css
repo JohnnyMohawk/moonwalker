@@ -148,7 +148,7 @@
   .menu-description {
     font-size: 12px !important;
     /* margin-bottom: 15px !important; */
-    margin-bottom: 1em !important;
+    margin-bottom: 0 !important;
     margin-top: 0;
     line-height: 12px;
   }
