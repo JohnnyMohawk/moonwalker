@@ -109,9 +109,9 @@
     }
 }
 
-@media screen and (max-width: 450px) {
+/* @media screen and (max-width: 450px) {
     .overlay,
     .hero-container {
         height: 65vh !important;
     }
-}
+} */

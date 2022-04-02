@@ -122,3 +122,9 @@
     transition: all 0.2s ease-out;
   }
 }
+
+@media screen and (min-height: 1000px) {
+  .animated-title {
+    margin-top: -150px;
+  }
+}
