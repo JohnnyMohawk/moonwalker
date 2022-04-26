@@ -67,7 +67,7 @@ th {
 
 @media screen and (max-width: 400px) {
     .hoursTable {
-        /* margin-top: 145px; */
+        margin-top: 75px;
         font-size: 5vmin;
         line-height: 5vmin;
     }
